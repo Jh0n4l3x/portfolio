@@ -1,4 +1,5 @@
 import { motion, type Variants } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 const sectionVariant: Variants = {
   hidden: { opacity: 0, y: 40 },
@@ -50,12 +51,12 @@ export function HomePage() {
                 Ver proyectos
               </a>
 
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="px-6 py-3 rounded-xl glass border border-white/10 hover:bg-white/10 transition"
               >
                 Contacto
-              </a>
+              </Link>
             </div>
           </motion.div>
 
@@ -186,12 +187,12 @@ export function HomePage() {
           aprender y construir soluciones de alto impacto.
         </p>
 
-        <a
-          href="/contact"
+        <Link
+          to="/contact"
           className="inline-block px-8 py-4 rounded-xl bg-gradient-to-r from-primary-500 to-accent-500 font-semibold shadow-lg hover:scale-105 transition"
         >
           Contáctame
-        </a>
+        </Link>
       </motion.section>
     </main>
   )
