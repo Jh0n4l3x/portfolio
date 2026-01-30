@@ -30,7 +30,7 @@ export const MainLayout = () => {
             to="/"
             className="font-display font-bold text-xl sm:text-2xl gradient-text hover:scale-105 transition-transform"
           >
-            Jhona.dev
+            Jhonalex.dev
           </Link>
 
           {/* DESKTOP */}
